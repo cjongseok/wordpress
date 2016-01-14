@@ -1,0 +1,15 @@
+wordpress:
+  image: wordpress
+  links:
+    - db:mysql
+  ports:
+    - 80:80
+
+db:
+  image: mariadb
+  volumes:
+    - /opt/docker-persistence/mariadb/data:/var/lib/mysql
+    - /opt/docker-persistence/mariadb/conf.d:/etc/mysql/conf.d
+  environment:
+    MYSQL_ROOT_PASSWORD: example
+
