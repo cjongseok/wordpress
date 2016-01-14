@@ -35,7 +35,7 @@ sudo apt-get update
 sudo apt-get install -y docker-engine
 
 # Install pip
-sudo apt-get install -y pip
+sudo apt-get install -y python-pip
 sudo pip install docker-compose
 
 # Create directories for container persistence
