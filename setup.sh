@@ -48,7 +48,3 @@ sudo mkdir -p $MARIA_PERSISTENCE/conf.d
 sudo mkdir -p $WP_PERSISTENCE/www/html
 
 
-
-
-
-
