@@ -4,6 +4,8 @@ wordpress:
     - db:mysql
   ports:
     - 80:80
+  volumes:
+    - /opt/docker-persistence/wordpress/www/html:/var/www/html
 
 db:
   image: mariadb

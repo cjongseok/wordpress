@@ -45,7 +45,7 @@ WP_PERSISTENCE=$DOCKER_PERSISTENCE/wordpress
 
 sudo mkdir -p $MARIA_PERSISTENCE/data
 sudo mkdir -p $MARIA_PERSISTENCE/conf.d
-sudo mkdir -p $WP_PERSISTENCE
+sudo mkdir -p $WP_PERSISTENCE/www/html
 
 
 
